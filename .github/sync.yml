@@ -1,5 +1,8 @@
-PatrickAmbrosso/Snippets:
+PatrickAmbrosso/Snippets@main:
   - dotfiles/
   - docker/
 PatrickAmbrosso/Odysseus-Ambrosia@main:
-  - dest: content/Snippets/
+  - source: dotfiles/
+    dest: content/Snippets/dotfiles/
+  - source: docker/
+    dest: content/Snippets/docker/
