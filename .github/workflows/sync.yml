@@ -16,3 +16,4 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_SNIPPETS_SYNC }}
           SKIP_PR: true
+          COMMIT_PREFIX: ➡️

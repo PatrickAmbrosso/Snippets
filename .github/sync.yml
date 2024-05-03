@@ -4,5 +4,7 @@ PatrickAmbrosso/Snippets@main:
 PatrickAmbrosso/Odysseus-Ambrosia@main:
   - source: dotfiles/
     dest: content/Snippets/dotfiles/
+    deleteOrphaned: true
   - source: docker/
     dest: content/Snippets/docker/
+    deleteOrphaned: true
